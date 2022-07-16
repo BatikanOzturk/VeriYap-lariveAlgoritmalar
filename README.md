@@ -52,3 +52,25 @@ Bu nedenle avarage case kapsamında yer alır.
 [3,5,7,8|,2,9,4,15,6]
 
 ```
+
+## Merge Sort
+
+* [16,21,11,8,12,22] -> Merge Sort
+* Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+* Big-O gösterimini yazınız.
+
+```
+[16,21,11|,8,12,22]
+[16,21,11] [8,12,22]
+[16] [21,11]  [8] [12,22]
+[16] [11,21]  [8] [12,22]
+[11,16,21]  [8,12,22]
+[8,11,12,16,21,22]
+```
+### Big O Notation Gösterimi
+
+```
+Worst Case : O(n*logn)
+Avarage Case : O(n*logn)
+Best Case : O(n*logn)
+```
