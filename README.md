@@ -74,3 +74,64 @@ Worst Case : O(n*logn)
 Avarage Case : O(n*logn)
 Best Case : O(n*logn)
 ```
+# Binary Search Tree
+
+* [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+```
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+
+Root: 7 ' dir.
+
+Rootun sağında: 8,9
+Rootun solunda: 0,1,2,3,1,5,6
+
+```
+
+```
+7
+```
+
+```
+  7
+ /
+6
+```
+
+```
+   7
+  / \
+ 5   8
+```
+
+```
+    7
+   / \
+  5   8
+ / \
+1   6
+
+```
+
+```
+      7
+     / \
+    5   8
+   / \
+  1   6
+ / \
+0   3
+```
+
+```
+      7
+     / \
+    5   8
+   / \   \
+  1   6   9
+ / \
+0   3
+   / \
+  2   4
+      
+```
