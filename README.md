@@ -2,7 +2,7 @@
 
 Patika.dev Veri Yapıları ve Algoritmaları dersini bitirme projesidir.
 
-## Insertion Sort
+# Insertion Sort
 
   *  [22,27,16,2,18,6] -> Insertion Sort
   *  Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
@@ -53,7 +53,7 @@ Bu nedenle avarage case kapsamında yer alır.
 
 ```
 
-## Merge Sort
+# Merge Sort
 
 * [16,21,11,8,12,22] -> Merge Sort
 * Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
